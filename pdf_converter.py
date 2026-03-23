@@ -4,7 +4,7 @@ import pypdf
 import os
 
 path = os.getcwd()
-file  = os.path.join(path, 'Letterofoffer.pdf')
+file  = os.path.join(path, 'samplepdef.pdf')
 
 pdf = pypdf.PdfReader(file)
 mylist = []
